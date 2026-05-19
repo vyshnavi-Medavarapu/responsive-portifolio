@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1>Vyshnavi Portfolio</h1>
+      <button onclick="toggleTheme()">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web development intern learning modern frontend technologies.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">Flexbox</span>
+        <span class="skill">CSS Grid</span>
+        <span class="skill">Responsive Design</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <p>Semantic HTML5 Portfolio Website</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: vyshnavi@example.com</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Vyshnavi Portfolio</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+
+</body>
+</html>
